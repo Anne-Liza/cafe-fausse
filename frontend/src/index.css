@@ -1,0 +1,13 @@
+@import "tailwindcss";
+@plugin "daisyui" {
+  themes: all;
+}
+
+/* Optional base style */
+html, body {
+  height: 100%;
+  margin: 0;
+  background-color: #fffaf7;
+  color: #1f2937;
+  font-family: system-ui, sans-serif;
+}
