@@ -4,6 +4,7 @@ import Menu from "../pages/Menu";
 import Reservations from "../pages/Reservations";
 import About from "../pages/About";
 import Gallery from "../pages/Gallery";
+import Contact from "../pages/Contact";
 
 export default function AppRoutes() {
   return (
@@ -13,6 +14,7 @@ export default function AppRoutes() {
       <Route path="/reservations" element={<Reservations />} />
       <Route path="/about" element={<About />} />
       <Route path="/gallery" element={<Gallery />} />
+      <Route path="/contact" element={<Contact />} />
     </Routes>
   );
 }
