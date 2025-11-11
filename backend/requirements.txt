@@ -1,0 +1,23 @@
+# --- Core Flask ---
+Flask==3.0.3
+Flask-Cors==4.0.0
+
+# --- Database / ORM ---
+Flask-SQLAlchemy==3.1.1
+SQLAlchemy==2.0.31
+psycopg2-binary==2.9.9     # PostgreSQL driver
+
+# --- PDF generation ---
+reportlab==3.6.12          # works safely with Python 3.8–3.9
+
+# --- Environment & configuration ---
+python-dotenv==1.0.1       # optional, for .env config variables
+
+# --- Utilities (optional but useful) ---
+Werkzeug==3.0.3
+itsdangerous==2.2.0
+Jinja2==3.1.4
+
+# --- Testing & debugging (optional) ---
+pytest==8.3.3
+requests==2.32.3
