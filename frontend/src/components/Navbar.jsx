@@ -13,6 +13,7 @@ export default function Navbar() {
           <li><Link to="/">Home</Link></li>
           <li><Link to="/menu">Menu</Link></li>
           <li><Link to="/reservations">Reservations</Link></li>
+          <li><Link to="/cart">Cart</Link></li>
           <li><Link to="/about">About</Link></li>
           <li><Link to="/gallery">Gallery</Link></li>
           <li><Link to="/contact">Contact</Link></li>
